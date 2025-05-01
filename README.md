@@ -32,11 +32,24 @@ bash scripts/1_build_docker_image.bash
 bash scripts/2_build_docker_containter.bash
 ```
 
+To send a navigation goal to one of the turtlebot3, please use the following command:
+
+```bash
+bash scripts/3_send_nav_goal_tb3_0.bash
+```
+
+```bash
+bash scripts/4_send_nav_goal_tb3_1.bash
+```
+
 ## **Verify** ✅
+
+By running the command above, you should see something similar to what is shown below:
 
 ![Gazebo Environment](./img/gazebo.png)
 
 ![RVIZ Environment](./img/rviz.png)
+
 
 
 
