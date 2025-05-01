@@ -1,0 +1,13 @@
+repositories:
+  BT_ros1:
+    type: git
+    url: https://github.com/cardboardcode/BT_ros1.git
+    version: multi-turtlebot3
+  multibot_layers:
+    type: git
+    url: https://github.com/airuchen/multibot_layer.git
+    version: master
+  turtlebot3_simulations:
+    type: git
+    url: https://github.com/ROBOTIS-GIT/turtlebot3_simulations.git
+    version: noetic
