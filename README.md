@@ -50,6 +50,7 @@ By running the command above, you should see something similar to what is shown 
 
 ![RVIZ Environment](./img/rviz.png)
 
+![Video](./img/navigating.png)
 
 
 
