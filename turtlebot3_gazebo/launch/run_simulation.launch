@@ -1,0 +1,6 @@
+<launch>
+
+  <include file="$(find turtlebot3_gazebo)/launch/multi_turtlebot3_closeworld2.launch"/>
+  <include file="$(find turtlebot3_navigation)/launch/turtlebot3_navigation.launch"/>
+
+</launch>
