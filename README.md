@@ -15,7 +15,7 @@ cd $HOME
 ```
 
 ```bash
-git clone https://github.com/cardboardcode/Multi-Robot-Gazebo-NaviStack.git --depth 1 --single-branch --branch main && cd Multi-Robot-Gazebo-NaviStack
+git clone https://github.com/cardboardcode/multi_tb3_simulation.git --depth 1 --single-branch --branch main && cd multi_tb3_simulation
 ```
 
 2. **Build** docker image:
