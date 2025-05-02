@@ -1,7 +1,7 @@
 <?xml version='1.0'?>
 <sdf version='1.7'>
   <model name='CloseArea2'>
-    <link name='link_0'>
+    <link name='Sphere_1'>
       <inertial>
         <mass>1</mass>
         <inertia>
@@ -27,7 +27,13 @@
             <uri>file://media/materials/scripts/gazebo.material</uri>
             <name>Gazebo/Grey</name>
           </script>
-          <shader type='pixel'/>
+          <shader type='pixel'>
+            <normal_map>__default__</normal_map>
+          </shader>
+          <ambient>1 0.098 0 1</ambient>
+          <diffuse>0.7 0.7 0.7 1</diffuse>
+          <specular>0.01 0.01 0.01 1</specular>
+          <emissive>0 0 0 1</emissive>
         </material>
         <transparency>0</transparency>
         <cast_shadows>1</cast_shadows>
@@ -88,7 +94,7 @@
         </surface>
       </collision>
     </link>
-    <link name='link_1'>
+    <link name='Box_1'>
       <inertial>
         <mass>1</mass>
         <inertia>
@@ -186,7 +192,7 @@
         </surface>
       </collision>
     </link>
-    <link name='link_2'>
+    <link name='Cylinder_1'>
       <inertial>
         <mass>1</mass>
         <inertia>
@@ -213,7 +219,13 @@
             <uri>file://media/materials/scripts/gazebo.material</uri>
             <name>Gazebo/Grey</name>
           </script>
-          <shader type='pixel'/>
+          <shader type='pixel'>
+            <normal_map>__default__</normal_map>
+          </shader>
+          <ambient>1 0.098 0 1</ambient>
+          <diffuse>0.7 0.7 0.7 1</diffuse>
+          <specular>0.01 0.01 0.01 1</specular>
+          <emissive>0 0 0 1</emissive>
         </material>
         <transparency>0</transparency>
         <cast_shadows>1</cast_shadows>
@@ -275,7 +287,7 @@
         </surface>
       </collision>
     </link>
-    <link name='link_3'>
+    <link name='Sphere_2'>
       <inertial>
         <mass>1</mass>
         <inertia>
@@ -309,7 +321,7 @@
           <shader type='pixel'>
             <normal_map>__default__</normal_map>
           </shader>
-          <ambient>0 0 0 1</ambient>
+          <ambient>1 0.098 0 1</ambient>
           <diffuse>0.7 0.7 0.7 1</diffuse>
           <specular>0.01 0.01 0.01 1</specular>
           <emissive>0 0 0 1</emissive>
@@ -373,7 +385,7 @@
         </surface>
       </collision>
     </link>
-    <link name='link_4'>
+    <link name='Box_2'>
       <inertial>
         <mass>1</mass>
         <inertia>
@@ -407,7 +419,7 @@
           <shader type='pixel'>
             <normal_map>__default__</normal_map>
           </shader>
-          <ambient>0 1 0 1</ambient>
+          <ambient>1 0.098 0 1</ambient>
           <diffuse>0.7 0.7 0.7 1</diffuse>
           <specular>0.01 0.01 0.01 1</specular>
           <emissive>0 0 0 1</emissive>
@@ -471,7 +483,7 @@
         </surface>
       </collision>
     </link>
-    <link name='link_5'>
+    <link name='Sphere_3'>
       <inertial>
         <mass>1</mass>
         <inertia>
@@ -505,7 +517,7 @@
           <shader type='pixel'>
             <normal_map>__default__</normal_map>
           </shader>
-          <ambient>0.125 0.29 0.529 1</ambient>
+          <ambient>1 0.098 0 1</ambient>
           <diffuse>0.7 0.7 0.7 1</diffuse>
           <specular>0.01 0.01 0.01 1</specular>
           <emissive>0 0 0 1</emissive>
@@ -569,7 +581,7 @@
         </surface>
       </collision>
     </link>
-    <link name='link_6'>
+    <link name='Cylinder_3'>
       <inertial>
         <mass>1</mass>
         <inertia>
@@ -604,7 +616,7 @@
           <shader type='pixel'>
             <normal_map>__default__</normal_map>
           </shader>
-          <ambient>0.988 0.914 0.31 1</ambient>
+          <ambient>1 0.098 0 1</ambient>
           <diffuse>0.7 0.7 0.7 1</diffuse>
           <specular>0.01 0.01 0.01 1</specular>
           <emissive>0 0 0 1</emissive>
